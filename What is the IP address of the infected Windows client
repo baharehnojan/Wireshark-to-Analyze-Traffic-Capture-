@@ -32,11 +32,6 @@ https://malware-traffic-analysis.net/
 File:
 https://www.malware-traffic-analysis.net/2026/01/31/index.html
 
-To identify the infected host, I opened the PCAP file in Wireshark.
-I navigated to:
-Statistics → Conversations → IPv4
-From the conversation list, I focused on internal IP addresses within the LAN range (10.1.21.0/24).
-I observed that the IP address 10.1.21.58 had a significantly high number of packets when communicating with the domain controller (10.1.21.2).
 
 
 
