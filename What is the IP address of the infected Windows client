@@ -1,1 +1,34 @@
 
+# Sample 2 - Lumma Stealer Traffic Analysis
+
+Exercise:
+2026-01-31 - Traffic Analysis Exercise: Lumma in the Room-Ah
+
+Background:
+This exercise is based on a Security Operations Center (SOC) scenario where an alert was triggered for ET MALWARE Lumma Stealer Victim Fingerprinting Activity from IP address 153.92.1.49 over TCP port 80.
+
+The alert was triggered on:
+2026-01-27 at 23:05 UTC
+
+Environment Details:
+- LAN range: 10.1.21.0/24
+- Domain: win11office.com
+- Active Directory: WIN11OFFICE
+- Domain Controller: 10.1.21.2 (WIN-LU4L24X3UB7)
+- Gateway: 10.1.21.1
+
+Task:
+The goal of this exercise is to analyze the PCAP file and answer the following:
+
+- What is the IP address of the infected Windows client?
+- What is the MAC address of the infected Windows client?
+- What is the host name of the infected Windows client?
+- What is the user account name from the infected Windows client?
+- What is the full name of the user from the user account?
+- What is the domain from 153.92.1.49 that triggered the alert?
+
+Data Source:
+https://malware-traffic-analysis.net/
+
+File:
+2026-01-31-traffic-analysis-exercise.pcap
